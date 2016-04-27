@@ -1,7 +1,3 @@
-*Econ 409 Final Project
-*Group 4
-*Iwunze Ugo Malcolm Bonner Maria Morales Martha Concepcion
-
 clear
 set more off
 use drugs.dta
