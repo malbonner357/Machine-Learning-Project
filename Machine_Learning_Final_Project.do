@@ -1,6 +1,3 @@
-*Econ 409 Final Project
-*Group 4
-*Iwunze Ugo Malcolm Bonner Maria Morales Martha Concepcion
 
 clear
 set more off
@@ -314,8 +311,8 @@ count if ad_drug_type==1 & age>50
 count if ad_drug_type==2 & age>50
 count if ad_drug_type==3 & age>50
 
-*esttab gen_1 gen_2 gen_pool using model_results.csv, se star(* 0.10 ** 0.05 *** 0.01) noobs replace
+
 
 *Notes:
-	*Estimates table starred out because the table we use in the poster was heavily edited.
+	*Estimates table starred out because the table used in the poster was heavily edited.
 	*The likelihood ratio test for a structural difference between generations was done by hand so it does not appear in this do file.
